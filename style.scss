@@ -1,0 +1,16 @@
+@import "mixin", 'var';
+
+.container{
+    @include flexCenter();
+    flex-wrap: wrap;
+    gap: 5%;
+img{width: 450px;
+    margin: 10px;
+    border-radius: $borderForIMG; 
+    @include filter(50%);
+    &:hover{
+        @include filter(110%);
+
+}
+}
+}

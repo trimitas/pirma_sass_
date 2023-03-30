@@ -1,0 +1,12 @@
+@mixin filter($pr){
+
+    filter: brightness($pr);
+}
+
+
+@mixin flexCenter(){
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
